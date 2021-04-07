@@ -9,12 +9,12 @@ li {
   list-style-type: none;
 }
 
-a {
+.link {
   text-decoration: none;
   padding: 10px;
   color: black;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }

@@ -11,7 +11,17 @@ const People = ({data}) => {
                   <div className="col" key={i}>
                      <div className="card">
                         <div className="card__content">
-                           <div className="card__header">{people.name}</div>
+                           <div className="card__header">
+                              <h2>{people.name}</h2>
+                           </div>
+                           <div className="card__desc">
+                              <strong>Gender</strong>
+                              <p>{people.gender}</p>
+                              <strong>Height</strong>
+                              <p>{people.height}</p>
+                              <strong>Mass</strong>
+                              <p>{people.mass}</p>
+                           </div>
                         </div>
                      </div>
                   </div>
